@@ -4,7 +4,7 @@ require 'test_helper'
 
 describe Prawn::Emoji::Image do
   describe '#path' do
-    let(:emojis) { %w( 😀 © 🇯🇵 ) }
+    let(:emojis) { %w( 😀 © ) }
     let(:emoji_unicodes) { emojis.map { |emoji| Prawn::Emoji::Unicode.new(emoji) } }
 
     it 'possible to find the image file' do
