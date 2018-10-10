@@ -6,6 +6,10 @@
 
 Prawn::Emoji is an extention for [Prawn](https://github.com/prawnpdf/prawn), provides feature for drawing Emoji.
 
+## Fork info
+
+In this fork the emoji images are provided by Noto Color Emoji.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -48,7 +52,7 @@ In order to draw emoji, you must use a TTF - True Type Font. I recommend you use
 
 ## Feature
 
-  * Emoji is provided by EmojiOne http://emojione.com
+  * Emoji is provided by Noto Color Emoji https://www.google.com/get/noto/help/emoji/
   * Multi-character emoji support
   * RTL support
   * Character spacing support
@@ -88,9 +92,9 @@ $ bundle exec rake emoji:generate_index
 
 ## Credit
 
-### Emoji One
+### Noto Color Emoji
 
-Emoji provided free by [Emoji One](http://emojione.com/).
+Emoji provided free by [Noto Color Emoji](https://www.google.com/get/noto/help/emoji/).
 
 ### IPA Font
 
